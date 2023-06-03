@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    
+    <!--<h1>we are rendering the values by using jinja tags</h1>
+<h1>
+    {% if a > 10 %}
+<h1>this is if block</h1>
+<h1>{{a}} is greater than {{b}}</h1>
+
+<h1>
+    {% else %}
+    <h1>this is else block</h1>
+    <h1>{{b}} is greater than {{a}}</h1>
+    {% endif %} 
+-->
+{% if a > b %}
+   {% if a > c %}
+      <h1>a is max</h1>
+   {% else %} 
+      <h1>c is max</h1>
+    {% endif %}
+<{% else %}
+    {% if b >c %}
+      <h1>b is max</h1>
+    {% else %}
+      <h1>c is max</h1>
+    {% endif %}
+{% endif %}  
+
+
+    </center>
+</body>
+</html>
